@@ -9,9 +9,14 @@
 <body>
     <div class="container">
         <h1>Cinema Manager Game</h1>
-        <p>Welcome to your cinema manager game!</p>
-        <button onclick="playMovie()">Play Movie</button>
-        <div id="movieDisplay"></div>
+        <div id="menu">
+            <button onclick="startGame()">Start Game</button>
+            <button onclick="learnMore()">Learn More</button>
+        </div>
+        <div id="game" style="display: none;">
+            <h2>Welcome to the Game!</h2>
+            <p>This is where the game content will appear.</p>
+        </div>
     </div>
     <script src="script.js"></script>
 </body>
