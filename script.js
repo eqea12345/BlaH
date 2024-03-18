@@ -1,7 +1,7 @@
 function startGame() {
     document.getElementById("menu").style.display = "none";
     document.getElementById("game").style.display = "block";
-    // You can add additional logic to initialize the game here
+    
 }
 
 function learnMore() {
